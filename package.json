@@ -33,10 +33,10 @@
   "peerDependencies": {
     "ag-grid": "^16.0.1",
     "ag-grid-react": "^16.0.0",
-    "react": "^15.0.0 || ^16.0.0",
+    "react": "^15.6.1",
     "react-dom-factories": "^1.0.2",
     "react-bootstrap-typeahead": "^1.4.0",
-	"underscore": "^1.8.3",
+    "underscore": "^1.8.3",
     "underscore.string": "^3.3.4"
   },
   "devDependencies": {
@@ -52,11 +52,10 @@
     "eslint-plugin-react": "^6.4.1",
     "lodash.isequal": "^4.4.0",
     "prop-types": "^15.5.10",
-    "react": "^15.5.0",
-    "react-dom": "^15.5.0",
-	"ag-grid": "^16.0.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "ag-grid": "^16.0.1",
     "ag-grid-react": "^16.0.0",
-    "react": "^15.0.0 || ^16.0.0",
     "react-dom-factories": "^1.0.2",
     "react-bootstrap-typeahead": "^1.4.0",
     "underscore": "^1.8.3",

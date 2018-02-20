@@ -22,6 +22,16 @@ Install dependencies.
 npm install --save react-bootstrap-typeahead underscore underscore.string
 ```
 
+Include css files from the ` src\css ` folder in your project
+
+```html
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="Typeahead.css">
+<link rel="stylesheet" href="ClearButton.css">
+<link rel="stylesheet" href="Loader.css">
+<link rel="stylesheet" href="Token.css">
+```
+
 ## Usage example
 
 ```javascript
@@ -44,6 +54,7 @@ const fruit = {
 
 const options = {
 	domLayout: 'autoHeight',
+	enableColResize: true,
 	enableFilter: true,
 	columnDefs: [
 		{
@@ -96,7 +107,7 @@ const options = {
 	}
 };
 		
-<div className="ag-theme-material" style={{ minHeight: '200px' }}>
+<div className="ag-theme-material" style={{ width: '100%', minHeight: '200px' }}>
 	<AgGridReact {...options} />
 </div>
 ```
@@ -105,7 +116,7 @@ const options = {
 
 #### options
 
-Object containing `key => value` pair for Select and MultiSelect filters
+Object containing ` key => value ` pair for Select and MultiSelect filters (refer usage example).
 
 
 # License

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Typeahead } from 'react-bootstrap-typeahead';
+import _ from 'underscore';
 import s from 'underscore.string';
 
 

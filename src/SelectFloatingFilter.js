@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import { FormControl } from 'react-bootstrap';
+import _ from 'underscore';
 import s from 'underscore.string';
 
 class SelectFloatingFilter extends Component {
@@ -40,7 +41,7 @@ class SelectFloatingFilter extends Component {
 		const fieldName = headerName || s.capitalize(field);
 		const placeholderClass = !selectedValue ? 'placeholder' : '';
 		return (
-			<select placeholder={`Select ${fieldName}...`} className={`select-filter ${placeholderClass}`} value={selectedValue} onChange={this.onChange} style={{ marginTop: '10px' }} >
+			<select placeholder={`Select ${fieldName}...`} className={`form-control select-filter ${placeholderClass}`} value={selectedValue} onChange={this.onChange} style={{ marginTop: '10px' }} >
 				<option value="" className="placeholder">Select { fieldName }...</option>
 				{ _.keys(options).map((key, i) => (<option key={i} value={key}>{ options[key] }</option>)) }
 			</select>

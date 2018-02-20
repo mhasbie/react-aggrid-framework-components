@@ -1,0 +1,56 @@
+.bootstrap-typeahead .dropdown-menu > li a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bootstrap-typeahead .dropdown-menu > li a:focus {
+  outline: none;
+}
+
+.bootstrap-typeahead .dropdown-menu-justify {
+  right: 0;
+}
+
+/* Hide IE's native "clear" button */
+.bootstrap-typeahead input[type=text]::-ms-clear {
+  display: none;
+}
+
+.bootstrap-typeahead-menu-paginator {
+  text-align: center;
+}
+
+/* Input sizes */
+.bootstrap-tokenizer {
+  padding-bottom: 2px;
+  padding-top: 5px;
+}
+
+.input-sm.bootstrap-tokenizer {
+  padding-bottom: 1px;
+  padding-top: 4px;
+}
+
+.input-lg.bootstrap-tokenizer {
+  padding-bottom: 6px;
+  padding-top: 9px;
+}
+
+.bootstrap-tokenizer-input {
+  margin: 1px 0 4px;
+}
+
+.has-aux {
+  padding-right: 32px;
+}
+
+.has-aux.input-lg {
+  padding-right: 42px;
+}
+
+/* Fix styles when used with input-group */
+.input-group .bootstrap-typeahead:first-child .form-control {
+  border-radius: 4px 0 0 4px;
+}
+.input-group .bootstrap-typeahead:last-child .form-control {
+  border-radius: 0 4px 4px 0;
+}

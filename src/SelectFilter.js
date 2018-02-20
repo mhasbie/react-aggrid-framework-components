@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import _ from 'underscore';
 import s from 'underscore.string';
 
 class SelectFilter extends Component {
@@ -59,7 +60,7 @@ class SelectFilter extends Component {
 		const fieldName = headerName || s.capitalize(field);
 		const placeholderClass = !selectedValue ? 'placeholder' : '';
 		return (
-			<select placeholder={`Select ${fieldName}...`} className={`select-filter ${placeholderClass}`} value={selectedValue} onChange={this.onChange} >
+			<select placeholder={`Select ${fieldName}...`} className={`form-control select-filter ${placeholderClass}`} value={selectedValue} onChange={this.onChange} >
 				<option value="" className="placeholder">Select { fieldName }...</option>
 				{ _.keys(options).map((key, i) => (<option key={i} value={key}>{ options[key] }</option>)) }
 			</select>
