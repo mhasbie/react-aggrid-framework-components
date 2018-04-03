@@ -68,6 +68,7 @@ class MultiSelectFilter extends Component {
 					clearButton
 					bodyContainer
 					options={sets}
+					selected={selectedValues}
 					onChange={this.onChange}
 					placeholder={`Select ${fieldName}...`}
 				/>
