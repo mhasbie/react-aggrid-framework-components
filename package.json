@@ -1,6 +1,6 @@
 {
   "name": "react-aggrid-framework-components",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Ag-Grid custom built framework components for ag-grid-react. Select, Multi-select filter components for Ag-Grid.",
   "main": "dist/react-aggrid-framework-components.js",
   "scripts": {
