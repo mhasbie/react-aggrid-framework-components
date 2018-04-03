@@ -41,7 +41,7 @@ class MultiSelectFloatingFilter extends Component {
 		const fieldName = headerName || s.capitalize(field);
 		const sets = _.keys(options).map(key => ({ key, name: options[key] }));
 		return (
-			<span className="custom-floating-filter" >
+			<span className="multiselect-floating-filter" >
 				<Typeahead
 					labelKey="name"
 					multiple

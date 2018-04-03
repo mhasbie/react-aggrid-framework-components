@@ -3668,7 +3668,7 @@ return /******/ (function(modules) { // webpackBootstrap
 				});
 				return _react2.default.createElement(
 					'span',
-					{ style: { width: '50px' } },
+					{ className: 'multiselect-filter', style: { width: '50px' } },
 					_react2.default.createElement(_reactBootstrapTypeahead.Typeahead, {
 						labelKey: 'name',
 						multiple: true,
@@ -36932,7 +36932,7 @@ return /******/ (function(modules) { // webpackBootstrap
 				});
 				return _react2.default.createElement(
 					'span',
-					{ className: 'custom-floating-filter' },
+					{ className: 'multiselect-floating-filter' },
 					_react2.default.createElement(_reactBootstrapTypeahead.Typeahead, {
 						labelKey: 'name',
 						multiple: true,

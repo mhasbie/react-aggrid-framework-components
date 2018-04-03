@@ -32,9 +32,6 @@ Include css files from the ` src\css ` folder in your project
 ```html
 <link rel="stylesheet" href="bootstrap.min.css">
 <link rel="stylesheet" href="Typeahead.css">
-<link rel="stylesheet" href="ClearButton.css">
-<link rel="stylesheet" href="Loader.css">
-<link rel="stylesheet" href="Token.css">
 ```
 
 ## Usage example

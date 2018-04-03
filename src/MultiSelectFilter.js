@@ -61,7 +61,7 @@ class MultiSelectFilter extends Component {
 		const fieldName = headerName || s.capitalize(field);
 		const sets = _.keys(options).map(key => ({ key, name: options[key] }));
 		return (
-			<span style={{ width: '50px' }}>
+			<span className="multiselect-filter" style={{ width: '50px' }}>
 				<Typeahead
 					labelKey="name"
 					multiple
