@@ -1,7 +1,12 @@
 # react-aggrid-framework-components
 
-React wrapper of [leaflet-measure](https://github.com/ljagis/leaflet-measure)
-for [react-leaflet](https://github.com/PaulLeCam/react-leaflet).
+[![travis build](https://img.shields.io/travis/mhasbie/react-aggrid-framework-components.svg?style=plastic)](https://travis-ci.org/mhasbie/react-aggrid-framework-components)
+[![version](https://img.shields.io/npm/v/react-aggrid-framework-components.svg?style=plastic)](http://npm.im/react-aggrid-framework-components)
+[![MIT License](https://img.shields.io/npm/l/react-aggrid-framework-components.svg?style=plastic)](http://opensource.org/licenses/MIT)
+[![dependencies](https://img.shields.io/david/mhasbie/react-aggrid-framework-components.svg?style=plastic)](https://david-dm.org/mhasbie/react-aggrid-framework-components)
+[![peer dependencies](https://img.shields.io/david/peer/mhasbie/react-aggrid-framework-components.svg?style=plastic)](https://david-dm.org/mhasbie/react-aggrid-framework-components?type=peer)
+[![downloads](https://img.shields.io/npm/dt/react-aggrid-framework-components.svg?style=plastic)](http://npm-stat.com/charts.html?package=react-aggrid-framework-components&from=2018-01-01)
+[![issues](https://img.shields.io/github/issues/mhasbie/react-aggrid-framework-components.svg?style=plastic)](https://github.com/mhasbie/react-aggrid-framework-components/issues)
 
 [Ag-Grid](https://www.ag-grid.com/) custom built framework components for [ag-grid-react](https://www.npmjs.com/package/ag-grid-react).
 
